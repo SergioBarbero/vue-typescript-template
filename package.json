@@ -1,8 +1,8 @@
 {
-  "name": "awesome2048",
+  "name": "vue-typescript-template",
   "version": "1.0.0",
-  "private": true,
-  "description": "Frontend of the famous game 2048",
+  "private": false,
+  "description": "Template with vue, vuex, bootstrap, typescript and webpack",
   "main": "index.html",
   "scripts": {
     "dev": "webpack-dev-server --mode development",
@@ -12,7 +12,7 @@
   "keywords": [],
   "author": {
     "name": "Sergio Barbero",
-    "url": "https://github.com/SergioBarbero/Awesome2048.git"
+    "url": "https://github.com/SergioBarbero/vue-typescript-template.git"
   },
   "license": "",
   "dependencies": {
