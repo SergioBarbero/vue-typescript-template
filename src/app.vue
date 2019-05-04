@@ -1,6 +1,16 @@
 <template>
-    <div>
-        <topic :fontIndex=fontIndex @changeFont="changeFont"></topic>
+    <div class="d-flex justify-content-center">
+      <div>
+        <div>
+          <img src="./assets/images/logo-vue.png" class="app-logo" alt="logo" />
+          <h2>Welcome to Vue</h2>
+        </div>
+          <p>
+            To get started, edit
+            <code>src/components/app/app.vue</code> and save to reload.
+          </p>
+          <topic :fontIndex=fontIndex @changeFont="changeFont"></topic>
+      </div>
     </div>
 </template>
 

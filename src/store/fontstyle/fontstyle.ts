@@ -1,4 +1,3 @@
-import { Component, Prop, Vue } from "vue-property-decorator";
 import { ActionContext, Store } from "vuex";
 import { getStoreAccessors } from "vuex-typescript";
 import { GlobalState } from "../state-types";
