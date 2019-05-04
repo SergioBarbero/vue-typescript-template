@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 :class="'display-' + fontIndex">{{ topic }}</h1>
+      <h1 :class="`display-${fontIndex}`">{{ topic }}</h1>
       <button @click="changeFont">Change</button>
     </div>
 </template>
